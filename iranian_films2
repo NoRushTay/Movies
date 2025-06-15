@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>איראן נגד ישראל? לא בטוח שראיתם את כל התמונה</title>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <style>
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-size: 18px;
+}
+
+header {
+  background-color: #262626;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4em;
+}
+
+header h2, header h3 {
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+p.intro {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.film {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+  padding: 20px;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.film img {
+  float: left;
+  margin-left: 20px;
+  width: 140px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.film h3 {
+  margin-top: 0;
+  color: #1a1a1a;
+  font-size: 1.3em;
+}
+
+.film p {
+  line-height: 1.6;
+  font-size: 1.05em;
+}
+
+.film a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.film a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #eee;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* Mobile adjustments */
+@media (max-width: 700px) {
+  body {
+    font-size: 17px;
+  }
+
+  .film img {
+    float: none;
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .film {
+    padding: 16px;
+  }
+}
+
+/* Scroll effect */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}  </style>
+</head>
+<body>
+
+<header>
+  <h2>גדי רימר</h2>
+  <h1>איראן נגד ישראל? לא בטוח שראיתם את כל התמונה</h1>
+  <h2>קבלו את עשרת הסרטים האיראנים שאני הכי אוהב</h2>
+  <h3>מאת גדי רימר</h3>
+</header>
+
+<main>
+  <p class="intro">
+    אוקיי, אז כן, יש איום גרעיני באוויר, והכותרות צורחות “איראן”. אבל בזמן שכולם עסוקים בטילים, אני רק רוצה לצעוק: <strong>עזבו אתכם מלחמות – בואו נדבר על קולנוע איראני</strong>.<br>
+    כן, כן, אותו קולנוע עם ילדים אבודים בכפרים, סבתות חכמות, גברים במשבר קיומי, והמון שוטים של אבק בדרכים לא סלולות. וזה מהמם.
+  </p>
+
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/film-poster/3/2/3/4/5/32345-taste-of-cherry-0-1000-0-1500-crop.jpg?v=64fada0a9a" alt="טעם הדובדבן – עבאס קיארוסטמי">
+      <h3>טעם הדובדבן – עבאס קיארוסטמי</h3>
+      <p>אחד הסרטים היפים אי-פעם, בטופ-5 שלי מאז הפעם הראשונה. סרט על טעם החיים (וטעם הקולנוע). גבר נוסע בטהרן בחיפוש אחר מישהו שיקבור אותו – אבל בפועל, זו יצירה שמחזירה אותך לחיים.</p>
+      <a href="https://letterboxd.com/film/taste-of-cherry/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/film-poster/2/1/1/8/5/21185-a-moment-of-innocence-0-1000-0-1500-crop.jpg?v=a5d801af80" alt="רגע של תמימות – מוחסן מחמלבאף">
+      <h3>רגע של תמימות – מוחסן מחמלבאף</h3>
+      <p>סרט היברידי, רפלקסיבי ומטושטש בין דוקו לבדיון. הבמאי פוגש את הנער שפעם זרק עליו אבן – ומביים מחדש את הרגע. פוליטי, אנושי ומרגש.</p>
+      <a href="https://letterboxd.com/film/a-moment-of-innocence/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/film-poster/2/1/7/2/6/21726-the-wind-will-carry-us-0-1000-0-1500-crop.jpg?v=9a174e0e98" alt="הרוח תישא אותנו – עבאס קיארוסטמי">
+      <h3>הרוח תישא אותנו – עבאס קיארוסטמי</h3>
+      <p>סרט שבו כמעט כלום לא קורה, ובכל זאת הכל קורה. אתה מחכה, מרגיש, ואז נשאר עם התחושות. זה קיארוסטמי במיטבו.</p>
+      <a href="https://letterboxd.com/film/the-wind-will-carry-us/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/film-poster/6/3/4/5/6345-a-separation-0-1000-0-1500-crop.jpg?v=dca05d4c0a" alt="פרידה – אסגר פרהאדי">
+      <h3>פרידה – אסגר פרהאדי</h3>
+      <p>מלודרמה ריאליסטית מדויקת על זוג שנפרד, והטלטלה המשפחתית-דתית-חברתית שמגיעה איתה. פרהאדי בשיאו.</p>
+      <a href="https://letterboxd.com/film/a-separation/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/sm/upload/uj/1d/vf/nm/elWIIgU09MHS6NOVG9kdSrVECww-0-1000-0-1500-crop.jpg?v=a36fda0f1e" alt="זה לא סרט – ג'פאר פנהאי">
+      <h3>זה לא סרט – ג'פאר פנהאי</h3>
+      <p>פנהאי, תחת מעצר בית, מצלם את עצמו בבית. הסרט יצא לעולם בתוך עוגה. תסכול שהופך לאומנות.</p>
+      <a href="https://letterboxd.com/film/this-is-not-a-film/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/film-poster/1/5/6/6/9/15669-where-is-the-friend-s-house--0-1000-0-1500-crop.jpg?v=fa9af1e128" alt="איפה הבית של החבר שלי? – עבאס קיארוסטמי">
+      <h3>איפה הבית של החבר שלי? – עבאס קיארוסטמי</h3>
+      <p>ילד מחפש להחזיר מחברת לחבר. סיפור פשוט שמצליח לרגש בלי לומר מילה מיותרת. קיארוסטמי במיטבו.</p>
+      <a href="https://letterboxd.com/film/where-is-the-friends-house/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/sm/upload/r5/1v/5z/iz/dDxZSK4qXQutLMk7RsOOC2eAspu-0-1000-0-1500-crop.jpg?v=ec41b83d7e" alt="אודות אלי – אסגר פרהאדי">
+      <h3>אודות אלי – אסגר פרהאדי</h3>
+      <p>סופ"ש על חוף הים שמסתבך - מישהי נעלמת, והכל מתחיל להתפרק. דרמה פסיכולוגית מהודקת ומטלטלת.</p>
+      <a href="https://letterboxd.com/film/about-elly/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/film-poster/1/1/4/7/4/5/114745-the-past-0-1000-0-1500-crop.jpg?v=dca7370ee3" alt="העבר – אסגר פרהאדי">
+      <h3>העבר – אסגר פרהאדי</h3>
+      <p>מלודרמה צרפתית בבימוי פרהאדי – עם כל הרגש והמורכבות שציפיתם להם. עצוב, עדין, מדויק.</p>
+      <a href="https://letterboxd.com/film/the-past/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/film-poster/7/5/3/3/9/8/753398-hit-the-road-0-1000-0-1500-crop.jpg?v=9019e358bd" alt="Hit the Road – פנה פנהאי">
+      <h3>Hit the Road – פנה פנהאי</h3>
+      <p>משפחה באוטו, ילד משוגע, מסע רגשי ונופי מדבר מהממים. גם מצחיק, גם עצוב. סרט דרך עם לב גדול.</p>
+      <a href="https://letterboxd.com/film/hit-the-road-2021/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+    <section class="film">
+      <img src="https://a.ltrbxd.com/resized/sm/upload/t8/k4/3s/ts/xrgd24H2WnZVeiWDnnJxHkC7UVY-0-1000-0-1500-crop.jpg?v=8ef4459add" alt="קלוז-אפ – עבאס קיארוסטמי">
+      <h3>קלוז-אפ – עבאס קיארוסטמי</h3>
+      <p>סרט תיעודי-בדיוני על אדם שהתחזה לבמאי קולנוע. מבלבל, חכם ומרגש. חובה לקרוא לפני הצפייה.</p>
+      <a href="https://letterboxd.com/film/close-up/" target="_blank">לצפייה ב- Letterboxd</a>
+    </section>
+    
+</main>
+<footer>
+  יש מלחמות, יש איום גרעיני – אבל יש גם קולנוע. והסרטים האלה מזכירים: בצד השני יש אנשים, אהבות, שאלות, וילדים שמחזירים מחברת.<br>
+  אולי במקום טילים – פשוט תראו סרט?
+</footer>
+</body>
+</html>
