@@ -58,10 +58,17 @@ p.intro {
   padding: 20px;
   overflow: hidden;
   opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 0.6s ease-out forwards;
+  transform: translateY(40px);
+  filter: blur(5px);
+  transition: all 0.8s ease-out;
 }
 
+.film.show {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+    
 .film img {
   float: left;
   margin-left: 20px;
@@ -217,5 +224,25 @@ footer {
   יש מלחמות, יש איום גרעיני – אבל יש גם קולנוע. והסרטים האלה מזכירים: בצד השני יש אנשים, אהבות, שאלות, וילדים שמחזירים מחברת.<br><br>
   
 </footer>
+
+  <script>
+  const films = document.querySelectorAll('.film');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  films.forEach(film => {
+    observer.observe(film);
+  });
+</script>
 </body>
 </html>
